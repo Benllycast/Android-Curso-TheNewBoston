@@ -1,0 +1,115 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.ejemplo_adroid"
+	android:versionCode="1"
+	android:versionName="1.0" >
+	<uses-sdk
+		android:minSdkVersion="8"
+		android:targetSdkVersion="15" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER"/><uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	
+	<application
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name=".Menu"
+			android:label="Menu" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".AboutUs" android:label="About Us" 
+			android:screenOrientation="portrait" 
+			android:theme="@android:style/Theme.Dialog">
+			 <intent-filter>
+				<action android:name="com.example.ejemplo_adroid.ABOUTUS" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".Prefs" android:label="Preferences" 
+			android:screenOrientation="portrait" 
+			android:theme="@android:style/Theme.Dialog">
+			 <intent-filter>
+				<action android:name="com.example.ejemplo_adroid.PREFS" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".MainActivity"
+			android:label="@string/title_activity_main" >
+			<!--
+			<intent-filter>
+				<action android:name="com.example.ejemplo_android.MAINACTIVITY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			-->
+		</activity>
+		<activity
+			android:name=".Ejemplo1" android:label="@string/title_activity_ejemplo1" >
+			<!--
+			<intent-filter>
+				<action android:name="com.example.ejemplo_adroid.EJEMPLO1" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter> -->
+		</activity>
+		<activity
+			android:name=".Email" android:label="@string/title_activity_Email" >
+			<!--<intent-filter>
+				<action android:name="com.example.ejemplo_adroid.Email" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>-->
+		</activity>
+		<activity
+			android:name=".Camera" android:label="Camera" 
+			android:screenOrientation="portrait" >
+			<!-- <intent-filter>
+				<action android:name="com.example.ejemplo_adroid.Camera" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter> -->
+		</activity>
+		<activity
+			android:name=".Data" android:label="Data" 
+			android:screenOrientation="portrait" >
+			<!-- <intent-filter>
+				<action android:name="com.example.ejemplo_adroid.Data" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter> -->
+		</activity>
+		<activity
+			android:name=".OpenedClass" android:label="OpenedClass" 
+			android:screenOrientation="portrait" >
+			 <!-- <intent-filter>
+				<action android:name="com.example.ejemplo_adroid.OpenedClass" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter> -->
+		</activity>
+		<activity
+			android:name=".GFX" android:label="GFX" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name=".GFXSurface" android:label="GFXSurface" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name=".SoundStuff" android:label="SoundStuff" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name=".Slider" android:label="Slider" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name=".Tabs" android:label="Tabs" 
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name=".SimpleBrowser" android:label="Simple Browser" 
+			android:screenOrientation="portrait" >
+		</activity>
+	</application>
+</manifest>

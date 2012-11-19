@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:padding="23dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<EditText 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/etTexto"
+		android:inputType="textPassword"
+		android:hint="@string/etTextoHint"	
+		/>
+	
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="100">
+		<Button
+			android:id="@+id/btResult"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/btResultText" 
+			android:layout_weight="20"
+			/>
+		<ToggleButton android:id="@+id/tbToggleButton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/tbToggleButtontext"
+			android:layout_weight="80"
+			android:paddingBottom="10dp"
+			android:checked="true"
+			/>
+	</LinearLayout>
+	<TextView
+		android:id="@+id/tvResult"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/tvResultText" />
+</LinearLayout>

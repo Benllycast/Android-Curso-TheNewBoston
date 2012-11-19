@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+    <TextView
+    	android:id="@+id/tvNumber"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Your total is:"
+    	android:gravity="center"	
+    	android:textSize="40dp" />
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+    
+	    <Button
+	    	android:id="@+id/btAddOne"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:background="@drawable/custom" /><!-- un boton personalizado se llama a el xml(custom) desde drawable -->
+	    <Button
+	    	android:id="@+id/btSubtractOne"
+	    	android:layout_width="250dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center"
+	    	android:text="Subtract" />
+    </LinearLayout>
+    <TextView
+    	android:id="@+id/tvHello"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+</LinearLayout>

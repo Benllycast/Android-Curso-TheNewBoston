@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:drawable="@drawable/ovni" android:state_pressed="true"></item>
+	<item android:drawable="@drawable/cohete" android:state_focused="true"></item>
+	<item android:drawable="@drawable/atomo"></item>
+</selector>
+<!-- para realizar un boton personalizado se crea un archivo como este -->

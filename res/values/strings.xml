@@ -1,0 +1,13 @@
+<resources>
+	<string name="app_name">Ejemplo de Android</string>
+	<string name="hello_world">Main de Actividades</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title_activity_main">MainActivity</string>
+	<string name="txtButton">ClicMe!</string>
+	<string name="title_activity_ejemplo1">Ejemplo1</string>
+	<string name="etTextoHint">Type a comand</string>
+	<string name="btResultText">Try Comand</string>
+	<string name="tvResultText">Invalido!!!</string>
+	<string name="tbToggleButtontext">ToggleButton</string>
+	<string name="title_activity_Email">Email Activity</string>
+</resources>

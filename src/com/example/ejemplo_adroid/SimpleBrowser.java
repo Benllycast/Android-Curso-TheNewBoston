@@ -57,7 +57,8 @@ public class SimpleBrowser extends Activity implements OnClickListener {
 			webView.loadUrl(website);
 			//ecultando el keyboard despues de editar text
 			InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-			imm.hideSoftInputFromWindow(url.getWindowToken(), 0);
+			imm.hideSoftInputFromWindow(url.getWindowToken(), 0);//se pide cerrar la ventana del teclado
+			
 			break;
 		case R.id.btGoBack:
 			if (webView.canGoBack()) {

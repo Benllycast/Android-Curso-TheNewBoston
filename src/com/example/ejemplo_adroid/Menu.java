@@ -15,7 +15,7 @@ public class Menu extends ListActivity {
 
 	public String clases[] = { "MainActivity", "Ejemplo1", "Email", "Camera",
 			"Data", "GFX", "GFXSurface", "SoundStuff", "Slider", "Tabs","SimpleBrowser",
-			"Flipper","SharedPrefs","InternalData","ExternalData","example5" };
+			"Flipper","SharedPrefs","InternalData","ExternalData","SQLiteExample","Accelerate","example5" };
 
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {

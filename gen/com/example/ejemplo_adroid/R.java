@@ -24,12 +24,17 @@ public final class R {
         public static final int radio=0x7f020006;
     }
     public static final class id {
-        public static final int aboutUS=0x7f0a0045;
+        public static final int aboutUS=0x7f0a004f;
         public static final int analogClock1=0x7f0a0008;
+        public static final int bGetInfo=0x7f0a0042;
         public static final int bReturn=0x7f0a0029;
+        public static final int bSQLUpdate=0x7f0a003f;
+        public static final int bSQLdelete=0x7f0a0044;
+        public static final int bSQLmodify=0x7f0a0043;
+        public static final int bSQLopenView=0x7f0a0040;
         public static final int bSentEmail=0x7f0a0007;
         public static final int btAddOne=0x7f0a001c;
-        public static final int btAddTab=0x7f0a0044;
+        public static final int btAddTab=0x7f0a004e;
         public static final int btConfirm=0x7f0a000d;
         public static final int btGo=0x7f0a002f;
         public static final int btGoBack=0x7f0a0030;
@@ -43,8 +48,8 @@ public final class R {
         public static final int btSave=0x7f0a002b;
         public static final int btSaveFile=0x7f0a000e;
         public static final int btSetWall=0x7f0a0022;
-        public static final int btStartwatch=0x7f0a003f;
-        public static final int btStopWatch=0x7f0a0040;
+        public static final int btStartwatch=0x7f0a0049;
+        public static final int btStopWatch=0x7f0a004a;
         public static final int btSubtractOne=0x7f0a001d;
         public static final int button1=0x7f0a0010;
         public static final int cbSlider=0x7f0a003c;
@@ -54,12 +59,15 @@ public final class R {
         public static final int etIntro=0x7f0a0002;
         public static final int etName=0x7f0a0003;
         public static final int etOutro=0x7f0a0006;
+        public static final int etSQLHotness=0x7f0a003e;
+        public static final int etSQLName=0x7f0a003d;
+        public static final int etSQLrowInfo=0x7f0a0041;
         public static final int etSaveAs=0x7f0a000c;
         public static final int etSend=0x7f0a0013;
         public static final int etTexto=0x7f0a0017;
         public static final int etThings=0x7f0a0004;
         public static final int etURl=0x7f0a002e;
-        public static final int exit=0x7f0a0047;
+        public static final int exit=0x7f0a0051;
         public static final int handle=0x7f0a003b;
         public static final int handle1=0x7f0a0035;
         public static final int handle2=0x7f0a0036;
@@ -68,17 +76,18 @@ public final class R {
         public static final int hello=0x7f0a001f;
         public static final int ibTakePic=0x7f0a0021;
         public static final int ivReturnPic=0x7f0a0020;
-        public static final int preferences=0x7f0a0046;
+        public static final int preferences=0x7f0a0050;
         public static final int rBoth=0x7f0a0027;
         public static final int rCrazy=0x7f0a0025;
         public static final int rSexy=0x7f0a0026;
         public static final int rgAnswers=0x7f0a0024;
         public static final int slidingD=0x7f0a0039;
         public static final int spinSpiner=0x7f0a000b;
-        public static final int tab1=0x7f0a003e;
-        public static final int tab2=0x7f0a0042;
-        public static final int tab3=0x7f0a0043;
-        public static final int tabhost=0x7f0a003d;
+        public static final int tab1=0x7f0a0048;
+        public static final int tab2=0x7f0a004c;
+        public static final int tab3=0x7f0a004d;
+        public static final int tabhost=0x7f0a0047;
+        public static final int tableLayout1=0x7f0a0045;
         public static final int tbToggleButton=0x7f0a0019;
         public static final int textView1=0x7f0a0000;
         public static final int textView2=0x7f0a0011;
@@ -91,7 +100,8 @@ public final class R {
         public static final int tvNumber=0x7f0a001b;
         public static final int tvQuestion=0x7f0a0023;
         public static final int tvResult=0x7f0a001a;
-        public static final int tvShowResult=0x7f0a0041;
+        public static final int tvSQLInfo=0x7f0a0046;
+        public static final int tvShowResult=0x7f0a004b;
         public static final int tvText=0x7f0a0028;
         public static final int txtSharedData=0x7f0a002a;
         public static final int viewFlipper1=0x7f0a000f;
@@ -111,7 +121,9 @@ public final class R {
         public static final int simple_spinner_item=0x7f03000a;
         public static final int simplebrowser=0x7f03000b;
         public static final int sliding=0x7f03000c;
-        public static final int tabs=0x7f03000d;
+        public static final int sqlliteexample=0x7f03000d;
+        public static final int sqlview=0x7f03000e;
+        public static final int tabs=0x7f03000f;
     }
     public static final class menu {
         public static final int cool_menu=0x7f090000;

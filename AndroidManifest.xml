@@ -48,7 +48,7 @@
 			<intent-filter>
 				<action android:name="com.example.ejemplo_android.MAINACTIVITY" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -68,7 +68,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.Email" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -79,7 +79,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.Camera" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -90,7 +90,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.Data" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -101,7 +101,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.OpenedClass" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -165,7 +165,7 @@
 			android:screenOrientation="portrait" >
 			<intent-filter>
 				<action android:name="com.example.ejemplo_adroid.SQLVIEW" />
-				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
 		<activity
@@ -173,10 +173,26 @@
 			android:label="Accelerator Example"
 			android:screenOrientation="portrait" >
 		</activity>
-		<activity 
+		<activity
 			android:name=".HttpExample"
 			android:label="HttpExample"
-			android:screenOrientation="portrait">
+			android:screenOrientation="portrait" >
+		</activity>
+		<activity
+			android:name=".WeatherXmlParser"
+			android:label="@string/title_activity_weather_xml_parser" >
+		</activity>
+		<receiver android:name=".PointlessWidget" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/widget_stuff" />
+		</receiver>
+		<activity android:name=".WidgetConfig" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
 		</activity>
 	</application>
 </manifest>

@@ -24,7 +24,8 @@ public final class R {
         public static final int radio=0x7f020006;
     }
     public static final class id {
-        public static final int aboutUS=0x7f0a0050;
+        public static final int LinearLayout1=0x7f0a0050;
+        public static final int aboutUS=0x7f0a005a;
         public static final int analogClock1=0x7f0a0008;
         public static final int bGetInfo=0x7f0a0043;
         public static final int bReturn=0x7f0a002a;
@@ -33,6 +34,7 @@ public final class R {
         public static final int bSQLmodify=0x7f0a0044;
         public static final int bSQLopenView=0x7f0a0041;
         public static final int bSentEmail=0x7f0a0007;
+        public static final int bWether=0x7f0a0053;
         public static final int btAddOne=0x7f0a001d;
         public static final int btAddTab=0x7f0a004f;
         public static final int btConfirm=0x7f0a000d;
@@ -52,9 +54,12 @@ public final class R {
         public static final int btStopWatch=0x7f0a004b;
         public static final int btSubtractOne=0x7f0a001e;
         public static final int button1=0x7f0a0010;
+        public static final int bwidgetOpen=0x7f0a0056;
+        public static final int bwidgetconfig=0x7f0a0059;
         public static final int cbSlider=0x7f0a003d;
         public static final int content=0x7f0a003b;
         public static final int etAction=0x7f0a0005;
+        public static final int etCity=0x7f0a0051;
         public static final int etEmails=0x7f0a0001;
         public static final int etIntro=0x7f0a0002;
         public static final int etName=0x7f0a0003;
@@ -64,10 +69,12 @@ public final class R {
         public static final int etSQLrowInfo=0x7f0a0042;
         public static final int etSaveAs=0x7f0a000c;
         public static final int etSend=0x7f0a0013;
+        public static final int etState=0x7f0a0052;
         public static final int etTexto=0x7f0a0018;
         public static final int etThings=0x7f0a0004;
         public static final int etURl=0x7f0a002f;
-        public static final int exit=0x7f0a0052;
+        public static final int etwidgetconfig=0x7f0a0058;
+        public static final int exit=0x7f0a005c;
         public static final int handle=0x7f0a003c;
         public static final int handle1=0x7f0a0036;
         public static final int handle2=0x7f0a0037;
@@ -76,7 +83,8 @@ public final class R {
         public static final int hello=0x7f0a0020;
         public static final int ibTakePic=0x7f0a0022;
         public static final int ivReturnPic=0x7f0a0021;
-        public static final int preferences=0x7f0a0051;
+        public static final int menu_settings=0x7f0a005d;
+        public static final int preferences=0x7f0a005b;
         public static final int rBoth=0x7f0a0028;
         public static final int rCrazy=0x7f0a0026;
         public static final int rSexy=0x7f0a0027;
@@ -94,6 +102,7 @@ public final class R {
         public static final int textView3=0x7f0a0012;
         public static final int tvCanRead=0x7f0a0009;
         public static final int tvCanWrite=0x7f0a000a;
+        public static final int tvConfigInput=0x7f0a0055;
         public static final int tvDataResult=0x7f0a002e;
         public static final int tvGot=0x7f0a0016;
         public static final int tvHello=0x7f0a001f;
@@ -104,6 +113,8 @@ public final class R {
         public static final int tvSQLInfo=0x7f0a0047;
         public static final int tvShowResult=0x7f0a004c;
         public static final int tvText=0x7f0a0029;
+        public static final int tvWeather=0x7f0a0054;
+        public static final int tvwidgetUpdate=0x7f0a0057;
         public static final int txtSharedData=0x7f0a002b;
         public static final int viewFlipper1=0x7f0a000f;
         public static final int wvBrowser=0x7f0a0035;
@@ -126,9 +137,14 @@ public final class R {
         public static final int sqlliteexample=0x7f03000e;
         public static final int sqlview=0x7f03000f;
         public static final int tabs=0x7f030010;
+        public static final int weather=0x7f030011;
+        public static final int widget=0x7f030012;
+        public static final int widgetconfig=0x7f030013;
     }
     public static final class menu {
         public static final int cool_menu=0x7f090000;
+        public static final int weather=0x7f090001;
+        public static final int widget=0x7f090002;
     }
     public static final class raw {
         public static final int explosion=0x7f050000;
@@ -144,6 +160,8 @@ public final class R {
         public static final int title_activity_Email=0x7f07000a;
         public static final int title_activity_ejemplo1=0x7f070005;
         public static final int title_activity_main=0x7f070003;
+        public static final int title_activity_pointless_widget=0x7f07000c;
+        public static final int title_activity_weather_xml_parser=0x7f07000b;
         public static final int tvResultText=0x7f070008;
         public static final int txtButton=0x7f070004;
     }
@@ -152,5 +170,6 @@ public final class R {
     }
     public static final class xml {
         public static final int pref=0x7f040000;
+        public static final int widget_stuff=0x7f040001;
     }
 }

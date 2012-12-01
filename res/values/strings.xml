@@ -10,4 +10,6 @@
 	<string name="tvResultText">Invalido!!!</string>
 	<string name="tbToggleButtontext">ToggleButton</string>
 	<string name="title_activity_Email">Email Activity</string>
+	<string name="title_activity_weather_xml_parser">WeatherXmlParser</string>
+	<string name="title_activity_pointless_widget">PointlessWidget</string>
 </resources>

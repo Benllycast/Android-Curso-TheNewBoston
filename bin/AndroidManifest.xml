@@ -182,17 +182,23 @@
 			android:name=".WeatherXmlParser"
 			android:label="@string/title_activity_weather_xml_parser" >
 		</activity>
+		<!-- Configuracion de un widget -->
+		<!-- receptor de actulizaciones -->
 		<receiver android:name=".PointlessWidget" android:label="@string/app_name">
 			<intent-filter>
+				<!-- filtro de intent -->
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
-			<meta-data android:name="android.appwidget.provider"
-				android:resource="@xml/widget_stuff" />
+			<!-- resource de configuracion de las propiedades del widget en la pantalla home -->
+			<meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_stuff" />
 		</receiver>
+		<!-- actividad de configuracion -->
 		<activity android:name=".WidgetConfig" android:label="@string/app_name">
 			<intent-filter>
+				<!-- filtro de intent -->
 				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
 			</intent-filter>
 		</activity>
+		<!-- fin widget -->
 	</application>
 </manifest>

@@ -200,5 +200,13 @@
 			</intent-filter>
 		</activity>
 		<!-- fin widget -->
+		<activity
+			android:name=".GLExample"
+			android:label="GL Example" >
+		</activity>
+		<activity
+			android:name=".GLCubeEx"
+			android:label="GL Example" >
+		</activity>
 	</application>
 </manifest>

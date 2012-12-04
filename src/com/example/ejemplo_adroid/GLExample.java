@@ -7,7 +7,7 @@ import android.os.Bundle;
 public class GLExample extends Activity {
 
 	GLSurfaceView ourSurface;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -22,7 +22,6 @@ public class GLExample extends Activity {
 		// TODO Auto-generated method stub
 		super.onPause();
 		ourSurface.onPause();
-		
 	}
 
 	@Override
@@ -31,5 +30,5 @@ public class GLExample extends Activity {
 		super.onResume();
 		ourSurface.onResume();
 	}
-	
+
 }

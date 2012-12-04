@@ -12,4 +12,7 @@
 	<string name="title_activity_Email">Email Activity</string>
 	<string name="title_activity_weather_xml_parser">WeatherXmlParser</string>
 	<string name="title_activity_pointless_widget">PointlessWidget</string>
+	<string name="title_activity_voice">Voice</string>
+	<string name="title_activity_text_voice">Text Voice</string>
+	<string name="title_activity_status_bar">StatusBar</string>
 </resources>

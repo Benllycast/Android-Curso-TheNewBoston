@@ -9,13 +9,17 @@
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<!-- <uses-permission android.name="android.vending.BILLING" /> -->
+	<uses-permission android:name="android.permission.VIBRATE" />
 	<application
 		android:icon="@drawable/ic_launcher"
 		android:label="@string/app_name"
 		android:theme="@style/AppTheme" >
 		<activity
 			android:name=".Menu"
-			android:label="Menu" >
+			android:label="Menu"
+			android:theme="@android:style/Theme.Light" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -48,7 +52,7 @@
 			<intent-filter>
 				<action android:name="com.example.ejemplo_android.MAINACTIVITY" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -58,7 +62,7 @@
 			<intent-filter>
 				<action android:name="com.example.ejemplo_adroid.EJEMPLO1" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -68,7 +72,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.Email" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -79,7 +83,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.Camera" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -90,7 +94,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.Data" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -101,7 +105,7 @@
             <intent-filter>
 				<action android:name="com.example.ejemplo_adroid.OpenedClass" />
 				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
+			</intent-filter>
 			-->
 		</activity>
 		<activity
@@ -184,16 +188,22 @@
 		</activity>
 		<!-- Configuracion de un widget -->
 		<!-- receptor de actulizaciones -->
-		<receiver android:name=".PointlessWidget" android:label="@string/app_name">
+		<receiver
+			android:name=".PointlessWidget"
+			android:label="@string/app_name" >
 			<intent-filter>
 				<!-- filtro de intent -->
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
 			<!-- resource de configuracion de las propiedades del widget en la pantalla home -->
-			<meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_stuff" />
+			<meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/widget_stuff" />
 		</receiver>
 		<!-- actividad de configuracion -->
-		<activity android:name=".WidgetConfig" android:label="@string/app_name">
+		<activity
+			android:name=".WidgetConfig"
+			android:label="@string/app_name" >
 			<intent-filter>
 				<!-- filtro de intent -->
 				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
@@ -207,6 +217,30 @@
 		<activity
 			android:name=".GLCubeEx"
 			android:label="GL Example" >
+		</activity>
+		<activity
+			android:name=".Voice"
+			android:label="@string/title_activity_voice" >
+			<intent-filter>
+				<action android:name="com.example.ejemplo_adroid.VOICE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".TextVoice"
+			android:label="@string/title_activity_text_voice" >
+			<intent-filter>
+				<action android:name="com.example.ejemplo_adroid.TEXTVOICE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".StatusBar"
+			android:label="@string/title_activity_status_bar" >
+			<intent-filter>
+				<action android:name="com.example.ejemplo_adroid.STATUSBAR" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
 		</activity>
 	</application>
 </manifest>

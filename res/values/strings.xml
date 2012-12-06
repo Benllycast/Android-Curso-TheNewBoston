@@ -15,4 +15,5 @@
 	<string name="title_activity_voice">Voice</string>
 	<string name="title_activity_text_voice">Text Voice</string>
 	<string name="title_activity_status_bar">StatusBar</string>
+	<string name="title_activity_seek_bar_volume">Seek Bar Volume</string>
 </resources>
